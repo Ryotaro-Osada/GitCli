@@ -1,0 +1,6 @@
+Invoking command in '/home/r-taro-o/hunterSE_ws/build/four_ws_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sim/ranger/four_ws_control -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/four_ws_control
+Invoked command in '/home/r-taro-o/hunterSE_ws/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sim/ranger/four_ws_control -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/four_ws_control
+Invoking command in '/home/r-taro-o/hunterSE_ws/build/four_ws_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/r-taro-o/hunterSE_ws/build/four_ws_control -- -j8 -l8
+Invoked command in '/home/r-taro-o/hunterSE_ws/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/r-taro-o/hunterSE_ws/build/four_ws_control -- -j8 -l8
+Invoking command in '/home/r-taro-o/hunterSE_ws/build/four_ws_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/r-taro-o/hunterSE_ws/build/four_ws_control
+Invoked command in '/home/r-taro-o/hunterSE_ws/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/r-taro-o/hunterSE_ws/build/four_ws_control

@@ -1,0 +1,1 @@
+Invoking command in '/home/r-taro-o/hunterSE_ws/build/hunter2_gazebo': /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sim/hunter/hunter2_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/hunter2_gazebo

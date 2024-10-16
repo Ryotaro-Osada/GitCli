@@ -1,0 +1,32 @@
+[0.073s] Invoking command in '/home/r-taro-o/hunterSE_ws/build/urdf_geometry_parser': /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sim/ranger_mini_V2/urdf_geometry_parser -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/urdf_geometry_parser
+[2.147s] -- The C compiler identification is GNU 11.4.0
+[2.149s] -- The CXX compiler identification is GNU 11.4.0
+[2.149s] -- Detecting C compiler ABI info
+[2.150s] -- Detecting C compiler ABI info - done
+[2.150s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.150s] -- Detecting C compile features
+[2.150s] -- Detecting C compile features - done
+[2.151s] -- Detecting CXX compiler ABI info
+[2.151s] -- Detecting CXX compiler ABI info - done
+[2.152s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.152s] -- Detecting CXX compile features
+[2.152s] -- Detecting CXX compile features - done
+[2.227s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[2.228s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.228s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.228s]   CMake did not find one.
+[2.229s] 
+[2.230s]   Could not find a package configuration file provided by "catkin" with any
+[2.231s]   of the following names:
+[2.231s] 
+[2.231s]     catkinConfig.cmake
+[2.231s]     catkin-config.cmake
+[2.231s] 
+[2.231s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.232s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.232s]   provides a separate development package or SDK, be sure it has been
+[2.232s]   installed.
+[2.232s] 
+[2.232s] [0m
+[2.233s] -- Configuring incomplete, errors occurred!
+[2.233s] See also "/home/r-taro-o/hunterSE_ws/build/urdf_geometry_parser/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,32 @@
+[0.087s] Invoking command in '/home/r-taro-o/hunterSE_ws/build/four_wheel_steering_msgs': /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sim/ranger_mini_V2/four_wheel_steering_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/four_wheel_steering_msgs
+[0.328s] -- The C compiler identification is GNU 11.4.0
+[0.722s] -- The CXX compiler identification is GNU 11.4.0
+[0.916s] -- Detecting C compiler ABI info
+[1.199s] -- Detecting C compiler ABI info - done
+[1.224s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.225s] -- Detecting C compile features
+[1.227s] -- Detecting C compile features - done
+[1.240s] -- Detecting CXX compiler ABI info
+[1.549s] -- Detecting CXX compiler ABI info - done
+[1.594s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.597s] -- Detecting CXX compile features
+[1.599s] -- Detecting CXX compile features - done
+[2.629s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[2.629s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.629s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.629s]   CMake did not find one.
+[2.630s] 
+[2.630s]   Could not find a package configuration file provided by "catkin" with any
+[2.630s]   of the following names:
+[2.630s] 
+[2.631s]     catkinConfig.cmake
+[2.631s]     catkin-config.cmake
+[2.631s] 
+[2.631s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.631s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.632s]   provides a separate development package or SDK, be sure it has been
+[2.632s]   installed.
+[2.632s] 
+[2.632s] [0m
+[2.633s] -- Configuring incomplete, errors occurred!
+[2.633s] See also "/home/r-taro-o/hunterSE_ws/build/four_wheel_steering_msgs/CMakeFiles/CMakeOutput.log".

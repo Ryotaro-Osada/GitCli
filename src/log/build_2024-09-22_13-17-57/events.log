@@ -1,0 +1,277 @@
+[0.000000] (-) TimerEvent: {}
+[0.001078] (hunter_msgs) JobQueued: {'identifier': 'hunter_msgs', 'dependencies': OrderedDict()}
+[0.001213] (ugv_sdk) JobQueued: {'identifier': 'ugv_sdk', 'dependencies': OrderedDict()}
+[0.001343] (hunter_base) JobQueued: {'identifier': 'hunter_base', 'dependencies': OrderedDict([('hunter_msgs', '/home/r-taro-o/hunterSE_ws/src/install/hunter_msgs'), ('ugv_sdk', '/home/r-taro-o/hunterSE_ws/src/install/ugv_sdk')])}
+[0.001482] (hunter_msgs) JobStarted: {'identifier': 'hunter_msgs'}
+[0.015958] (ugv_sdk) JobStarted: {'identifier': 'ugv_sdk'}
+[0.023127] (hunter_msgs) JobProgress: {'identifier': 'hunter_msgs', 'progress': 'cmake'}
+[0.025284] (hunter_msgs) JobProgress: {'identifier': 'hunter_msgs', 'progress': 'build'}
+[0.025427] (hunter_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r-taro-o/hunterSE_ws/src/build/hunter_msgs', '--', '-j8', '-l8'], 'cwd': '/home/r-taro-o/hunterSE_ws/src/build/hunter_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r-taro-o'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r-taro-o'), ('OLDPWD', '/home/r-taro-o/hunterSE_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r-taro-o'), ('NAME', 'LAPTOP-7D65I7SP'), ('WSL_INTEROP', '/run/WSL/242759_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r-taro-o/hunterSE_ws/src/build/hunter_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.037783] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'cmake'}
+[0.039665] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'build'}
+[0.040475] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r-taro-o/hunterSE_ws/src/build/ugv_sdk', '--', '-j8', '-l8'], 'cwd': '/home/r-taro-o/hunterSE_ws/src/build/ugv_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r-taro-o'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r-taro-o'), ('OLDPWD', '/home/r-taro-o/hunterSE_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r-taro-o'), ('NAME', 'LAPTOP-7D65I7SP'), ('WSL_INTEROP', '/run/WSL/242759_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r-taro-o/hunterSE_ws/src/build/ugv_sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.098004] (-) TimerEvent: {}
+[0.101643] (hunter_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.121124] (hunter_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.127308] (ugv_sdk) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o\x1b[0m\n'}
+[0.128042] (ugv_sdk) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o\x1b[0m\n'}
+[0.128334] (ugv_sdk) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o\x1b[0m\n'}
+[0.129163] (ugv_sdk) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o\x1b[0m\n'}
+[0.135424] (ugv_sdk) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o\x1b[0m\n'}
+[0.138944] (hunter_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_hunter_msgs\n'}
+[0.145803] (ugv_sdk) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o\x1b[0m\n'}
+[0.178309] (ugv_sdk) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o\x1b[0m\n'}
+[0.185923] (ugv_sdk) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o\x1b[0m\n'}
+[0.198143] (-) TimerEvent: {}
+[0.256206] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/async_port/async_can.cpp:10\x1b[m\x1b[K:\n'}
+[0.256591] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: No such file or directory\n'}
+[0.256806] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.256995] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.257169] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.261542] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:90: CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o] Error 1\n'}
+[0.261914] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[0.268881] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp:15\x1b[m\x1b[K,\n'}
+[0.269250] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/utilities/protocol_detector.cpp:10\x1b[m\x1b[K:\n'}
+[0.269474] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: No such file or directory\n'}
+[0.269677] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.269894] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.270244] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.277998] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:104: CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o] Error 1\n'}
+[0.298287] (-) TimerEvent: {}
+[0.309450] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21\x1b[m\x1b[K,\n'}
+[0.309825] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp:19\x1b[m\x1b[K,\n'}
+[0.310058] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/mobile_robot/hunter_robot.cpp:11\x1b[m\x1b[K:\n'}
+[0.310387] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: No such file or directory\n'}
+[0.310791] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.311012] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.311373] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.313722] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21\x1b[m\x1b[K,\n'}
+[0.314063] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp:19\x1b[m\x1b[K,\n'}
+[0.314281] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/mobile_robot/scout_robot.cpp:11\x1b[m\x1b[K:\n'}
+[0.314477] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: No such file or directory\n'}
+[0.314674] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.314915] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.315212] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.315924] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:132: CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o] Error 1\n'}
+[0.317242] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:118: CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o] Error 1\n'}
+[0.329790] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/async_port/async_serial.cpp:10\x1b[m\x1b[K:\n'}
+[0.330357] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: No such file or directory\n'}
+[0.330683] (ugv_sdk) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.330906] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.331205] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.332232] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:76: CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o] Error 1\n'}
+[0.376615] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21\x1b[m\x1b[K,\n'}
+[0.376972] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:19\x1b[m\x1b[K,\n'}
+[0.377186] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/mobile_robot/bunker_robot.cpp:11\x1b[m\x1b[K:\n'}
+[0.377425] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: No such file or directory\n'}
+[0.377634] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.377816] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.377999] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.379324] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:146: CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o] Error 1\n'}
+[0.398476] (-) TimerEvent: {}
+[0.436336] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21\x1b[m\x1b[K,\n'}
+[0.436714] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp:18\x1b[m\x1b[K,\n'}
+[0.436931] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp:15\x1b[m\x1b[K,\n'}
+[0.437209] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/mobile_robot/titan_robot.cpp:9\x1b[m\x1b[K:\n'}
+[0.437513] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: No such file or directory\n'}
+[0.437943] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.438363] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.438695] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.439308] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21\x1b[m\x1b[K,\n'}
+[0.439674] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp:19\x1b[m\x1b[K,\n'}
+[0.439908] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp:15\x1b[m\x1b[K,\n'}
+[0.440141] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/mobile_robot/ranger_robot.cpp:9\x1b[m\x1b[K:\n'}
+[0.440396] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: No such file or directory\n'}
+[0.440753] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.441415] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.441894] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.442396] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:174: CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o] Error 1\n'}
+[0.442873] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:160: CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o] Error 1\n'}
+[0.443853] (ugv_sdk) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/ugv_sdk.dir/all] Error 2\n'}
+[0.444845] (ugv_sdk) StderrLine: {'line': b'gmake: *** [Makefile:156: all] Error 2\n'}
+[0.446699] (ugv_sdk) CommandEnded: {'returncode': 2}
+[0.498670] (-) TimerEvent: {}
+[0.582143] (ugv_sdk) JobEnded: {'identifier': 'ugv_sdk', 'rc': 2}
+[0.598854] (-) TimerEvent: {}
+[0.699338] (-) TimerEvent: {}
+[0.799856] (-) TimerEvent: {}
+[0.854777] (hunter_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.856196] (hunter_msgs) StdoutLine: {'line': b'creating hunter_msgs.egg-info\n'}
+[0.856810] (hunter_msgs) StdoutLine: {'line': b'writing hunter_msgs.egg-info/PKG-INFO\n'}
+[0.857202] (hunter_msgs) StdoutLine: {'line': b'writing dependency_links to hunter_msgs.egg-info/dependency_links.txt\n'}
+[0.857615] (hunter_msgs) StdoutLine: {'line': b'writing top-level names to hunter_msgs.egg-info/top_level.txt\n'}
+[0.858153] (hunter_msgs) StdoutLine: {'line': b"writing manifest file 'hunter_msgs.egg-info/SOURCES.txt'\n"}
+[0.863417] (hunter_msgs) StdoutLine: {'line': b"reading manifest file 'hunter_msgs.egg-info/SOURCES.txt'\n"}
+[0.864517] (hunter_msgs) StdoutLine: {'line': b"writing manifest file 'hunter_msgs.egg-info/SOURCES.txt'\n"}
+[0.900042] (-) TimerEvent: {}
+[0.916655] (hunter_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_hunter_msgs_egg\n'}
+[1.000235] (-) TimerEvent: {}
+[1.100984] (-) TimerEvent: {}
+[1.201435] (-) TimerEvent: {}
+[1.301933] (-) TimerEvent: {}
+[1.402567] (-) TimerEvent: {}
+[1.503103] (-) TimerEvent: {}
+[1.561246] (hunter_msgs) StdoutLine: {'line': b'[  3%] Built target hunter_msgs__cpp\n'}
+[1.581953] (hunter_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.603315] (-) TimerEvent: {}
+[1.617544] (hunter_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.618790] (hunter_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.646839] (hunter_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_c.dir/rosidl_generator_c/hunter_msgs/msg/detail/hunter_light_cmd__functions.c.o\x1b[0m\n'}
+[1.647358] (hunter_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_c.dir/rosidl_generator_c/hunter_msgs/msg/detail/hunter_actuator_state__functions.c.o\x1b[0m\n'}
+[1.648417] (hunter_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_c.dir/rosidl_generator_c/hunter_msgs/msg/detail/hunter_rc_state__functions.c.o\x1b[0m\n'}
+[1.648857] (hunter_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_c.dir/rosidl_generator_c/hunter_msgs/msg/detail/hunter_status__functions.c.o\x1b[0m\n'}
+[1.658358] (hunter_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_c.dir/rosidl_generator_c/hunter_msgs/msg/detail/hunter_light_state__functions.c.o\x1b[0m\n'}
+[1.705675] (-) TimerEvent: {}
+[1.806358] (-) TimerEvent: {}
+[1.817630] (hunter_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libhunter_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.906537] (-) TimerEvent: {}
+[1.966715] (hunter_msgs) StdoutLine: {'line': b'[ 17%] Built target hunter_msgs__rosidl_generator_c\n'}
+[1.984654] (hunter_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.986443] (hunter_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.991795] (hunter_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.006741] (-) TimerEvent: {}
+[2.107399] (-) TimerEvent: {}
+[2.208228] (-) TimerEvent: {}
+[2.310508] (-) TimerEvent: {}
+[2.411688] (-) TimerEvent: {}
+[2.512342] (-) TimerEvent: {}
+[2.612840] (-) TimerEvent: {}
+[2.713350] (-) TimerEvent: {}
+[2.813960] (-) TimerEvent: {}
+[2.914477] (-) TimerEvent: {}
+[3.014974] (-) TimerEvent: {}
+[3.066896] (hunter_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hunter_msgs/msg/hunter_light_cmd__type_support.cpp.o\x1b[0m\n'}
+[3.067719] (hunter_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hunter_msgs/msg/hunter_light_state__type_support.cpp.o\x1b[0m\n'}
+[3.087545] (hunter_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hunter_msgs/msg/hunter_actuator_state__type_support.cpp.o\x1b[0m\n'}
+[3.116811] (-) TimerEvent: {}
+[3.217308] (-) TimerEvent: {}
+[3.317772] (-) TimerEvent: {}
+[3.372574] (hunter_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hunter_msgs/msg/detail/hunter_actuator_state__type_support.cpp.o\x1b[0m\n'}
+[3.417932] (-) TimerEvent: {}
+[3.518418] (-) TimerEvent: {}
+[3.574551] (hunter_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hunter_msgs/msg/hunter_actuator_state__type_support.cpp.o\x1b[0m\n'}
+[3.618577] (-) TimerEvent: {}
+[3.661501] (hunter_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hunter_msgs/msg/detail/dds_fastrtps/hunter_actuator_state__type_support.cpp.o\x1b[0m\n'}
+[3.670581] (hunter_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hunter_msgs/msg/hunter_light_cmd__type_support.cpp.o\x1b[0m\n'}
+[3.718845] (-) TimerEvent: {}
+[3.793711] (hunter_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hunter_msgs/msg/hunter_light_state__type_support.cpp.o\x1b[0m\n'}
+[3.819007] (-) TimerEvent: {}
+[3.845637] (hunter_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hunter_msgs/msg/detail/hunter_actuator_state__type_support.c.o\x1b[0m\n'}
+[3.882792] (hunter_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hunter_msgs/msg/hunter_rc_state__type_support.cpp.o\x1b[0m\n'}
+[3.919166] (-) TimerEvent: {}
+[3.955276] (hunter_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hunter_msgs/msg/detail/hunter_light_cmd__type_support.c.o\x1b[0m\n'}
+[3.981582] (hunter_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hunter_msgs/msg/hunter_status__type_support.cpp.o\x1b[0m\n'}
+[4.019427] (-) TimerEvent: {}
+[4.066085] (hunter_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hunter_msgs/msg/detail/hunter_light_state__type_support.c.o\x1b[0m\n'}
+[4.089391] (hunter_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libhunter_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.113967] (hunter_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hunter_msgs/msg/detail/hunter_actuator_state__type_support_c.cpp.o\x1b[0m\n'}
+[4.119638] (-) TimerEvent: {}
+[4.169366] (hunter_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hunter_msgs/msg/hunter_rc_state__type_support.cpp.o\x1b[0m\n'}
+[4.173033] (hunter_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hunter_msgs/msg/detail/dds_fastrtps/hunter_light_cmd__type_support.cpp.o\x1b[0m\n'}
+[4.173806] (hunter_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hunter_msgs/msg/detail/hunter_rc_state__type_support.c.o\x1b[0m\n'}
+[4.219864] (-) TimerEvent: {}
+[4.220390] (hunter_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hunter_msgs/msg/hunter_status__type_support.cpp.o\x1b[0m\n'}
+[4.285007] (hunter_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hunter_msgs/msg/detail/hunter_status__type_support.c.o\x1b[0m\n'}
+[4.291384] (hunter_msgs) StdoutLine: {'line': b'[ 53%] Built target hunter_msgs__rosidl_typesupport_c\n'}
+[4.318869] (hunter_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hunter_msgs/msg/detail/dds_fastrtps/hunter_light_state__type_support.cpp.o\x1b[0m\n'}
+[4.319922] (-) TimerEvent: {}
+[4.421387] (-) TimerEvent: {}
+[4.431784] (hunter_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C shared library libhunter_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.520815] (-) TimerEvent: {}
+[4.621357] (-) TimerEvent: {}
+[4.633505] (hunter_msgs) StdoutLine: {'line': b'[ 57%] Built target hunter_msgs__rosidl_typesupport_introspection_c\n'}
+[4.668024] (hunter_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hunter_msgs/msg/detail/dds_fastrtps/hunter_rc_state__type_support.cpp.o\x1b[0m\n'}
+[4.721510] (-) TimerEvent: {}
+[4.822101] (-) TimerEvent: {}
+[4.923315] (-) TimerEvent: {}
+[4.942697] (hunter_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hunter_msgs/msg/detail/hunter_light_cmd__type_support.cpp.o\x1b[0m\n'}
+[5.023490] (-) TimerEvent: {}
+[5.125804] (-) TimerEvent: {}
+[5.134211] (hunter_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hunter_msgs/msg/detail/hunter_light_state__type_support.cpp.o\x1b[0m\n'}
+[5.224957] (hunter_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hunter_msgs/msg/detail/dds_fastrtps/hunter_status__type_support.cpp.o\x1b[0m\n'}
+[5.225883] (-) TimerEvent: {}
+[5.265648] (hunter_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libhunter_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.326105] (-) TimerEvent: {}
+[5.426765] (-) TimerEvent: {}
+[5.527515] (-) TimerEvent: {}
+[5.532952] (hunter_msgs) StdoutLine: {'line': b'[ 65%] Built target hunter_msgs__rosidl_typesupport_cpp\n'}
+[5.554537] (hunter_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hunter_msgs/msg/detail/hunter_rc_state__type_support.cpp.o\x1b[0m\n'}
+[5.600687] (hunter_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hunter_msgs/msg/detail/hunter_light_cmd__type_support_c.cpp.o\x1b[0m\n'}
+[5.628487] (-) TimerEvent: {}
+[5.729025] (-) TimerEvent: {}
+[5.829566] (-) TimerEvent: {}
+[5.847202] (hunter_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hunter_msgs/msg/detail/hunter_light_state__type_support_c.cpp.o\x1b[0m\n'}
+[5.898718] (hunter_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hunter_msgs/msg/detail/hunter_rc_state__type_support_c.cpp.o\x1b[0m\n'}
+[5.929727] (-) TimerEvent: {}
+[6.030297] (-) TimerEvent: {}
+[6.130796] (-) TimerEvent: {}
+[6.231300] (-) TimerEvent: {}
+[6.331816] (-) TimerEvent: {}
+[6.343832] (hunter_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hunter_msgs/msg/detail/hunter_status__type_support.cpp.o\x1b[0m\n'}
+[6.374071] (hunter_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hunter_msgs/msg/detail/hunter_status__type_support_c.cpp.o\x1b[0m\n'}
+[6.431965] (-) TimerEvent: {}
+[6.532581] (-) TimerEvent: {}
+[6.633124] (-) TimerEvent: {}
+[6.733960] (-) TimerEvent: {}
+[6.834583] (-) TimerEvent: {}
+[6.881332] (hunter_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libhunter_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.934769] (-) TimerEvent: {}
+[7.035384] (-) TimerEvent: {}
+[7.115929] (hunter_msgs) StdoutLine: {'line': b'[ 76%] Built target hunter_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.135572] (-) TimerEvent: {}
+[7.236072] (-) TimerEvent: {}
+[7.307996] (hunter_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libhunter_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.336341] (-) TimerEvent: {}
+[7.419202] (hunter_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libhunter_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.436509] (-) TimerEvent: {}
+[7.536996] (-) TimerEvent: {}
+[7.539040] (hunter_msgs) StdoutLine: {'line': b'[ 79%] Built target hunter_msgs__rosidl_typesupport_fastrtps_c\n'}
+[7.609870] (hunter_msgs) StdoutLine: {'line': b'[ 79%] Built target hunter_msgs__rosidl_typesupport_introspection_cpp\n'}
+[7.637239] (-) TimerEvent: {}
+[7.637832] (hunter_msgs) StdoutLine: {'line': b'[ 79%] Built target hunter_msgs\n'}
+[7.666886] (hunter_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.737415] (-) TimerEvent: {}
+[7.837919] (-) TimerEvent: {}
+[7.938336] (-) TimerEvent: {}
+[8.038846] (-) TimerEvent: {}
+[8.139584] (-) TimerEvent: {}
+[8.240092] (-) TimerEvent: {}
+[8.340748] (-) TimerEvent: {}
+[8.441271] (-) TimerEvent: {}
+[8.541811] (-) TimerEvent: {}
+[8.642272] (-) TimerEvent: {}
+[8.742904] (-) TimerEvent: {}
+[8.843604] (-) TimerEvent: {}
+[8.944104] (-) TimerEvent: {}
+[9.044582] (-) TimerEvent: {}
+[9.145034] (-) TimerEvent: {}
+[9.245548] (-) TimerEvent: {}
+[9.346315] (-) TimerEvent: {}
+[9.373681] (hunter_msgs) StdoutLine: {'line': b'[ 80%] Built target hunter_msgs__py\n'}
+[9.405286] (hunter_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_py.dir/rosidl_generator_py/hunter_msgs/msg/_hunter_light_state_s.c.o\x1b[0m\n'}
+[9.405848] (hunter_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_py.dir/rosidl_generator_py/hunter_msgs/msg/_hunter_light_cmd_s.c.o\x1b[0m\n'}
+[9.406602] (hunter_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_py.dir/rosidl_generator_py/hunter_msgs/msg/_hunter_rc_state_s.c.o\x1b[0m\n'}
+[9.407707] (hunter_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_py.dir/rosidl_generator_py/hunter_msgs/msg/_hunter_actuator_state_s.c.o\x1b[0m\n'}
+[9.409879] (hunter_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_py.dir/rosidl_generator_py/hunter_msgs/msg/_hunter_status_s.c.o\x1b[0m\n'}
+[9.446446] (-) TimerEvent: {}
+[9.546988] (-) TimerEvent: {}
+[9.647577] (-) TimerEvent: {}
+[9.686098] (hunter_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hunter_msgs/libhunter_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[9.747746] (-) TimerEvent: {}
+[9.804701] (hunter_msgs) StdoutLine: {'line': b'[ 90%] Built target hunter_msgs__rosidl_generator_py\n'}
+[9.837915] (hunter_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hunter_msgs/_hunter_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.838686] (hunter_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hunter_msgs/_hunter_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.838942] (hunter_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hunter_msgs/_hunter_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.847904] (-) TimerEvent: {}
+[9.948448] (-) TimerEvent: {}
+[10.047667] (hunter_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hunter_msgs/hunter_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.048615] (-) TimerEvent: {}
+[10.057098] (hunter_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hunter_msgs/hunter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.076102] (hunter_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hunter_msgs/hunter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.148969] (-) TimerEvent: {}
+[10.185020] (hunter_msgs) StdoutLine: {'line': b'[100%] Built target hunter_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.192229] (hunter_msgs) StdoutLine: {'line': b'[100%] Built target hunter_msgs__rosidl_typesupport_c__pyext\n'}
+[10.212576] (hunter_msgs) StdoutLine: {'line': b'[100%] Built target hunter_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[10.232234] (hunter_msgs) JobEnded: {'identifier': 'hunter_msgs', 'rc': 'SIGINT'}
+[10.243908] (hunter_base) JobSkipped: {'identifier': 'hunter_base'}
+[10.244045] (-) EventReactorShutdown: {}

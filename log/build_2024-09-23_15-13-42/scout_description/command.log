@@ -1,0 +1,2 @@
+Invoking command in '/home/r-taro-o/hunterSE_ws/build/scout_description': /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sim/scout/scout_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/scout_description
+Invoked command in '/home/r-taro-o/hunterSE_ws/build/scout_description' returned '1': /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sim/scout/scout_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/scout_description

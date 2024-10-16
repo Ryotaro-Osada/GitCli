@@ -1,0 +1,33 @@
+[0.072s] Invoking command in '/home/r-taro-o/hunterSE_ws/build/hunter_se_control': /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sim/hunter_se/hunter_se_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/hunter_se_control
+[0.364s] -- The C compiler identification is GNU 11.4.0
+[0.945s] -- The CXX compiler identification is GNU 11.4.0
+[1.237s] -- Detecting C compiler ABI info
+[1.568s] -- Detecting C compiler ABI info - done
+[1.607s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.608s] -- Detecting C compile features
+[1.609s] -- Detecting C compile features - done
+[1.623s] -- Detecting CXX compiler ABI info
+[1.985s] -- Detecting CXX compiler ABI info - done
+[2.042s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.044s] -- Detecting CXX compile features
+[2.047s] -- Detecting CXX compile features - done
+[2.861s] -- Configuring incomplete, errors occurred!
+[2.861s] See also "/home/r-taro-o/hunterSE_ws/build/hunter_se_control/CMakeFiles/CMakeOutput.log".
+[2.862s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[2.862s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.862s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.862s]   CMake did not find one.
+[2.863s] 
+[2.863s]   Could not find a package configuration file provided by "catkin" with any
+[2.863s]   of the following names:
+[2.863s] 
+[2.864s]     catkinConfig.cmake
+[2.864s]     catkin-config.cmake
+[2.864s] 
+[2.864s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.865s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.865s]   provides a separate development package or SDK, be sure it has been
+[2.865s]   installed.
+[2.865s] 
+[2.866s] [0m
+[3.020s] Invoked command in '/home/r-taro-o/hunterSE_ws/build/hunter_se_control' returned '1': /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sim/hunter_se/hunter_se_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/hunter_se_control

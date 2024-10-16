@@ -1,0 +1,32 @@
+[0.093s] Invoking command in '/home/r-taro-o/hunterSE_ws/build/hunter_se_gazebo': /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sim/hunter_se/hunter_se_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/hunter_se_gazebo
+[2.885s] -- The C compiler identification is GNU 11.4.0
+[2.885s] -- The CXX compiler identification is GNU 11.4.0
+[2.886s] -- Detecting C compiler ABI info
+[2.886s] -- Detecting C compiler ABI info - done
+[2.887s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.917s] -- Detecting C compile features
+[2.920s] -- Detecting C compile features - done
+[2.923s] -- Detecting CXX compiler ABI info
+[2.926s] -- Detecting CXX compiler ABI info - done
+[2.926s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.926s] -- Detecting CXX compile features
+[2.926s] -- Detecting CXX compile features - done
+[4.252s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[4.252s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[4.253s]   asked CMake to find a package configuration file provided by "catkin", but
+[4.253s]   CMake did not find one.
+[4.253s] 
+[4.253s]   Could not find a package configuration file provided by "catkin" with any
+[4.253s]   of the following names:
+[4.254s] 
+[4.254s]     catkinConfig.cmake
+[4.254s]     catkin-config.cmake
+[4.254s] 
+[4.255s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[4.255s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[4.255s]   provides a separate development package or SDK, be sure it has been
+[4.255s]   installed.
+[4.255s] 
+[4.256s] [0m
+[4.258s] -- Configuring incomplete, errors occurred!
+[4.259s] See also "/home/r-taro-o/hunterSE_ws/build/hunter_se_gazebo/CMakeFiles/CMakeOutput.log".

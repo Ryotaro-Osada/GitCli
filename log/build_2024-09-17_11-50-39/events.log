@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.002693] (hunter_msgs) JobQueued: {'identifier': 'hunter_msgs', 'dependencies': OrderedDict()}
+[0.002894] (ugv_sdk) JobQueued: {'identifier': 'ugv_sdk', 'dependencies': OrderedDict()}
+[0.003035] (hunter_base) JobQueued: {'identifier': 'hunter_base', 'dependencies': OrderedDict([('hunter_msgs', '/home/r-taro-o/hunterSE_ws/install/hunter_msgs'), ('ugv_sdk', '/home/r-taro-o/hunterSE_ws/install/ugv_sdk')])}
+[0.003225] (hunter_msgs) JobStarted: {'identifier': 'hunter_msgs'}
+[0.013078] (ugv_sdk) JobStarted: {'identifier': 'ugv_sdk'}
+[0.021311] (hunter_msgs) JobProgress: {'identifier': 'hunter_msgs', 'progress': 'cmake'}
+[0.022868] (hunter_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/hunter_msgs'], 'cwd': '/home/r-taro-o/hunterSE_ws/build/hunter_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r-taro-o'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r-taro-o'), ('OLDPWD', '/home/r-taro-o/hunterSE_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r-taro-o'), ('NAME', 'LAPTOP-7D65I7SP'), ('WSL_INTEROP', '/run/WSL/242759_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r-taro-o/hunterSE_ws/build/hunter_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.034422] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'cmake'}
+[0.039055] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/r-taro-o/hunterSE_ws/src/ugv_sdk', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/ugv_sdk'], 'cwd': '/home/r-taro-o/hunterSE_ws/build/ugv_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r-taro-o'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r-taro-o'), ('OLDPWD', '/home/r-taro-o/hunterSE_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r-taro-o'), ('NAME', 'LAPTOP-7D65I7SP'), ('WSL_INTEROP', '/run/WSL/242759_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r-taro-o/hunterSE_ws/build/ugv_sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.050709] (hunter_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098918] (-) TimerEvent: {}
+[0.172207] (ugv_sdk) StdoutLine: {'line': b'-- Build package with cmake\n'}
+[0.172661] (ugv_sdk) StdoutLine: {'line': b'-- Tests will not be built\n'}
+[0.184219] (ugv_sdk) StdoutLine: {'line': b"-- Project will be installed to /home/r-taro-o/hunterSE_ws/install/ugv_sdk with 'make install'\n"}
+[0.184814] (ugv_sdk) StdoutLine: {'line': b'--  - To install LIB components to /home/r-taro-o/hunterSE_ws/install/ugv_sdk/lib\n'}
+[0.185092] (ugv_sdk) StdoutLine: {'line': b'--  - To install BIN components to /home/r-taro-o/hunterSE_ws/install/ugv_sdk/bin\n'}
+[0.185337] (ugv_sdk) StdoutLine: {'line': b'--  - To install INCLUDE components to /home/r-taro-o/hunterSE_ws/install/ugv_sdk/include\n'}
+[0.185535] (ugv_sdk) StdoutLine: {'line': b'--  - To install CMAKE components to /home/r-taro-o/hunterSE_ws/install/ugv_sdk/share/cmake/ugv_sdk\n'}
+[0.199165] (-) TimerEvent: {}
+[0.199830] (ugv_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.232921] (ugv_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[0.237729] (ugv_sdk) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[0.238076] (ugv_sdk) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[0.238233] (ugv_sdk) StderrLine: {'line': b'\n'}
+[0.238839] (ugv_sdk) StderrLine: {'line': b'    CATKIN_SYMLINK_INSTALL\n'}
+[0.239132] (ugv_sdk) StderrLine: {'line': b'\n'}
+[0.239320] (ugv_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.239499] (ugv_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/r-taro-o/hunterSE_ws/build/ugv_sdk\n'}
+[0.242689] (ugv_sdk) CommandEnded: {'returncode': 0}
+[0.243965] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'build'}
+[0.246017] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r-taro-o/hunterSE_ws/build/ugv_sdk', '--', '-j8', '-l8'], 'cwd': '/home/r-taro-o/hunterSE_ws/build/ugv_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r-taro-o'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r-taro-o'), ('OLDPWD', '/home/r-taro-o/hunterSE_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r-taro-o'), ('NAME', 'LAPTOP-7D65I7SP'), ('WSL_INTEROP', '/run/WSL/242759_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r-taro-o/hunterSE_ws/build/ugv_sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.299411] (-) TimerEvent: {}
+[0.312488] (hunter_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.323559] (ugv_sdk) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o\x1b[0m\n'}
+[0.323974] (ugv_sdk) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o\x1b[0m\n'}
+[0.328224] (ugv_sdk) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o\x1b[0m\n'}
+[0.328556] (ugv_sdk) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o\x1b[0m\n'}
+[0.328806] (ugv_sdk) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o\x1b[0m\n'}
+[0.329082] (ugv_sdk) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o\x1b[0m\n'}
+[0.329337] (ugv_sdk) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o\x1b[0m\n'}
+[0.339044] (ugv_sdk) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o\x1b[0m\n'}
+[0.352227] (hunter_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.399569] (-) TimerEvent: {}
+[0.459553] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/async_port/async_can.cpp:10\x1b[m\x1b[K:\n'}
+[0.459951] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: No such file or directory\n'}
+[0.460264] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.460468] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.460819] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.463959] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:90: CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o] Error 1\n'}
+[0.464440] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[0.496398] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp:15\x1b[m\x1b[K,\n'}
+[0.496846] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/utilities/protocol_detector.cpp:10\x1b[m\x1b[K:\n'}
+[0.497068] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: No such file or directory\n'}
+[0.497402] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.497631] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.498029] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.499320] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:104: CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o] Error 1\n'}
+[0.499629] (-) TimerEvent: {}
+[0.502561] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/async_port/async_serial.cpp:10\x1b[m\x1b[K:\n'}
+[0.502934] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: No such file or directory\n'}
+[0.503160] (ugv_sdk) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.503365] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.503622] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.503990] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21\x1b[m\x1b[K,\n'}
+[0.504219] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp:19\x1b[m\x1b[K,\n'}
+[0.504420] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/mobile_robot/hunter_robot.cpp:11\x1b[m\x1b[K:\n'}
+[0.504708] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: No such file or directory\n'}
+[0.504966] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.505201] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.505401] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.505952] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:76: CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o] Error 1\n'}
+[0.506821] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:132: CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o] Error 1\n'}
+[0.538145] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21\x1b[m\x1b[K,\n'}
+[0.538536] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp:19\x1b[m\x1b[K,\n'}
+[0.538749] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/mobile_robot/scout_robot.cpp:11\x1b[m\x1b[K:\n'}
+[0.538932] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: No such file or directory\n'}
+[0.539115] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.539296] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.539529] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.542267] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:118: CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o] Error 1\n'}
+[0.544575] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21\x1b[m\x1b[K,\n'}
+[0.545280] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:19\x1b[m\x1b[K,\n'}
+[0.545543] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/mobile_robot/bunker_robot.cpp:11\x1b[m\x1b[K:\n'}
+[0.545815] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: No such file or directory\n'}
+[0.546216] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.546435] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.546645] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.546895] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:146: CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o] Error 1\n'}
+[0.553688] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21\x1b[m\x1b[K,\n'}
+[0.553925] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp:18\x1b[m\x1b[K,\n'}
+[0.554134] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp:15\x1b[m\x1b[K,\n'}
+[0.554274] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/mobile_robot/titan_robot.cpp:9\x1b[m\x1b[K:\n'}
+[0.554393] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: No such file or directory\n'}
+[0.554512] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.554626] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.554754] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.555723] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:174: CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o] Error 1\n'}
+[0.574972] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21\x1b[m\x1b[K,\n'}
+[0.575239] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp:19\x1b[m\x1b[K,\n'}
+[0.575425] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp:15\x1b[m\x1b[K,\n'}
+[0.575568] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/mobile_robot/ranger_robot.cpp:9\x1b[m\x1b[K:\n'}
+[0.575684] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: No such file or directory\n'}
+[0.575800] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.575912] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.576020] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.578194] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:160: CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o] Error 1\n'}
+[0.578639] (ugv_sdk) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/ugv_sdk.dir/all] Error 2\n'}
+[0.579233] (ugv_sdk) StderrLine: {'line': b'gmake: *** [Makefile:156: all] Error 2\n'}
+[0.580342] (hunter_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.582863] (ugv_sdk) CommandEnded: {'returncode': 2}
+[0.586080] (hunter_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.597170] (hunter_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.599789] (-) TimerEvent: {}
+[0.622565] (hunter_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.655634] (hunter_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.682915] (hunter_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.696996] (hunter_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.700115] (-) TimerEvent: {}
+[0.704457] (ugv_sdk) JobEnded: {'identifier': 'ugv_sdk', 'rc': 2}
+[0.800406] (-) TimerEvent: {}
+[0.900894] (-) TimerEvent: {}
+[1.001383] (-) TimerEvent: {}
+[1.101804] (-) TimerEvent: {}
+[1.198908] (hunter_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.202012] (-) TimerEvent: {}
+[1.302519] (-) TimerEvent: {}
+[1.403082] (-) TimerEvent: {}
+[1.503774] (-) TimerEvent: {}
+[1.604217] (-) TimerEvent: {}
+[1.704695] (-) TimerEvent: {}
+[1.757944] (hunter_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.804883] (-) TimerEvent: {}
+[1.905323] (-) TimerEvent: {}
+[1.968001] (hunter_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.003135] (hunter_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.005544] (-) TimerEvent: {}
+[2.039184] (hunter_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.039480] (hunter_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.039610] (hunter_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.089751] (hunter_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.102816] (hunter_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.105378] (hunter_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.105812] (-) TimerEvent: {}
+[2.107888] (hunter_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.114916] (hunter_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.184747] (hunter_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.192480] (hunter_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/r-taro-o/hunterSE_ws/build/hunter_msgs\n'}
+[2.201686] (hunter_msgs) JobEnded: {'identifier': 'hunter_msgs', 'rc': 'SIGINT'}
+[2.206001] (-) TimerEvent: {}
+[2.213019] (hunter_base) JobSkipped: {'identifier': 'hunter_base'}
+[2.213188] (-) EventReactorShutdown: {}

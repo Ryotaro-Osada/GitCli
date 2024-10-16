@@ -1,0 +1,538 @@
+[0.000000] (-) TimerEvent: {}
+[0.000596] (autokit) JobQueued: {'identifier': 'autokit', 'dependencies': OrderedDict()}
+[0.000833] (bunker_description) JobQueued: {'identifier': 'bunker_description', 'dependencies': OrderedDict()}
+[0.000989] (four_wheel_steering_msgs) JobQueued: {'identifier': 'four_wheel_steering_msgs', 'dependencies': OrderedDict()}
+[0.001070] (hunter2_base) JobQueued: {'identifier': 'hunter2_base', 'dependencies': OrderedDict()}
+[0.001199] (hunter2_control) JobQueued: {'identifier': 'hunter2_control', 'dependencies': OrderedDict()}
+[0.001347] (hunter2_gazebo) JobQueued: {'identifier': 'hunter2_gazebo', 'dependencies': OrderedDict()}
+[0.001498] (hunter_msgs) JobQueued: {'identifier': 'hunter_msgs', 'dependencies': OrderedDict()}
+[0.001530] (hunter_se_control) JobQueued: {'identifier': 'hunter_se_control', 'dependencies': OrderedDict()}
+[0.001622] (hunter_se_description) JobQueued: {'identifier': 'hunter_se_description', 'dependencies': OrderedDict()}
+[0.001720] (hunter_se_gazebo) JobQueued: {'identifier': 'hunter_se_gazebo', 'dependencies': OrderedDict()}
+[0.001751] (limo_description) JobQueued: {'identifier': 'limo_description', 'dependencies': OrderedDict()}
+[0.001844] (limo_s2_arm) JobQueued: {'identifier': 'limo_s2_arm', 'dependencies': OrderedDict()}
+[0.001942] (limo_s2_description) JobQueued: {'identifier': 'limo_s2_description', 'dependencies': OrderedDict()}
+[0.001974] (limo_s2_gazebo_sim) JobQueued: {'identifier': 'limo_s2_gazebo_sim', 'dependencies': OrderedDict()}
+[0.002068] (ranger_mini_control) JobQueued: {'identifier': 'ranger_mini_control', 'dependencies': OrderedDict()}
+[0.002252] (ranger_mini_v2) JobQueued: {'identifier': 'ranger_mini_v2', 'dependencies': OrderedDict()}
+[0.002406] (ranger_mini_v2_gazebo) JobQueued: {'identifier': 'ranger_mini_v2_gazebo', 'dependencies': OrderedDict()}
+[0.002563] (scout_control) JobQueued: {'identifier': 'scout_control', 'dependencies': OrderedDict()}
+[0.002660] (scout_description) JobQueued: {'identifier': 'scout_description', 'dependencies': OrderedDict()}
+[0.002762] (steer_bot_hardware_gazebo) JobQueued: {'identifier': 'steer_bot_hardware_gazebo', 'dependencies': OrderedDict()}
+[0.002843] (steer_drive_controller) JobQueued: {'identifier': 'steer_drive_controller', 'dependencies': OrderedDict()}
+[0.002935] (tracer_description) JobQueued: {'identifier': 'tracer_description', 'dependencies': OrderedDict()}
+[0.003027] (tracer_mini) JobQueued: {'identifier': 'tracer_mini', 'dependencies': OrderedDict()}
+[0.003118] (ugv_sdk) JobQueued: {'identifier': 'ugv_sdk', 'dependencies': OrderedDict()}
+[0.003210] (urdf_geometry_parser) JobQueued: {'identifier': 'urdf_geometry_parser', 'dependencies': OrderedDict()}
+[0.003301] (bunker_gazebo_sim) JobQueued: {'identifier': 'bunker_gazebo_sim', 'dependencies': OrderedDict([('bunker_description', '/home/r-taro-o/hunterSE_ws/install/bunker_description')])}
+[0.003376] (four_wheel_steering_controller) JobQueued: {'identifier': 'four_wheel_steering_controller', 'dependencies': OrderedDict([('four_wheel_steering_msgs', '/home/r-taro-o/hunterSE_ws/install/four_wheel_steering_msgs'), ('urdf_geometry_parser', '/home/r-taro-o/hunterSE_ws/install/urdf_geometry_parser')])}
+[0.003473] (hunter_base) JobQueued: {'identifier': 'hunter_base', 'dependencies': OrderedDict([('hunter_msgs', '/home/r-taro-o/hunterSE_ws/install/hunter_msgs'), ('ugv_sdk', '/home/r-taro-o/hunterSE_ws/install/ugv_sdk')])}
+[0.003588] (limo_gazebo_sim) JobQueued: {'identifier': 'limo_gazebo_sim', 'dependencies': OrderedDict([('limo_description', '/home/r-taro-o/hunterSE_ws/install/limo_description')])}
+[0.003693] (scout_gazebo_sim) JobQueued: {'identifier': 'scout_gazebo_sim', 'dependencies': OrderedDict([('scout_description', '/home/r-taro-o/hunterSE_ws/install/scout_description')])}
+[0.003782] (tracer_gazebo_sim) JobQueued: {'identifier': 'tracer_gazebo_sim', 'dependencies': OrderedDict([('tracer_description', '/home/r-taro-o/hunterSE_ws/install/tracer_description')])}
+[0.003867] (bunker_description) JobStarted: {'identifier': 'bunker_description'}
+[0.019242] (four_wheel_steering_msgs) JobStarted: {'identifier': 'four_wheel_steering_msgs'}
+[0.027462] (hunter_msgs) JobStarted: {'identifier': 'hunter_msgs'}
+[0.034710] (limo_description) JobStarted: {'identifier': 'limo_description'}
+[0.042176] (scout_description) JobStarted: {'identifier': 'scout_description'}
+[0.052705] (tracer_description) JobStarted: {'identifier': 'tracer_description'}
+[0.060876] (ugv_sdk) JobStarted: {'identifier': 'ugv_sdk'}
+[0.069779] (urdf_geometry_parser) JobStarted: {'identifier': 'urdf_geometry_parser'}
+[0.085058] (bunker_description) JobProgress: {'identifier': 'bunker_description', 'progress': 'cmake'}
+[0.087919] (bunker_description) Command: {'cmd': ['/usr/bin/cmake', '/home/r-taro-o/hunterSE_ws/src/ugv_sim/bunker/bunker_description', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/bunker_description'], 'cwd': '/home/r-taro-o/hunterSE_ws/build/bunker_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r-taro-o'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r-taro-o'), ('OLDPWD', '/home/r-taro-o'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r-taro-o'), ('NAME', 'LAPTOP-7D65I7SP'), ('WSL_INTEROP', '/run/WSL/242759_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r-taro-o/hunterSE_ws/build/bunker_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.095058] (four_wheel_steering_msgs) JobProgress: {'identifier': 'four_wheel_steering_msgs', 'progress': 'cmake'}
+[0.095171] (four_wheel_steering_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/r-taro-o/hunterSE_ws/src/ugv_sim/ranger_mini_V2/four_wheel_steering_msgs', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/four_wheel_steering_msgs'], 'cwd': '/home/r-taro-o/hunterSE_ws/build/four_wheel_steering_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r-taro-o'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r-taro-o'), ('OLDPWD', '/home/r-taro-o'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r-taro-o'), ('NAME', 'LAPTOP-7D65I7SP'), ('WSL_INTEROP', '/run/WSL/242759_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r-taro-o/hunterSE_ws/build/four_wheel_steering_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.107020] (-) TimerEvent: {}
+[0.107466] (hunter_msgs) JobProgress: {'identifier': 'hunter_msgs', 'progress': 'cmake'}
+[0.107568] (hunter_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_msgs', '-DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/hunter_msgs'], 'cwd': '/home/r-taro-o/hunterSE_ws/build/hunter_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r-taro-o'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r-taro-o'), ('OLDPWD', '/home/r-taro-o'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r-taro-o'), ('NAME', 'LAPTOP-7D65I7SP'), ('WSL_INTEROP', '/run/WSL/242759_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r-taro-o/hunterSE_ws/build/hunter_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.112174] (limo_description) JobProgress: {'identifier': 'limo_description', 'progress': 'cmake'}
+[0.112294] (limo_description) Command: {'cmd': ['/usr/bin/cmake', '/home/r-taro-o/hunterSE_ws/src/ugv_sim/limo/limo_description', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/limo_description'], 'cwd': '/home/r-taro-o/hunterSE_ws/build/limo_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r-taro-o'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r-taro-o'), ('OLDPWD', '/home/r-taro-o'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r-taro-o'), ('NAME', 'LAPTOP-7D65I7SP'), ('WSL_INTEROP', '/run/WSL/242759_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r-taro-o/hunterSE_ws/build/limo_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.118234] (scout_description) JobProgress: {'identifier': 'scout_description', 'progress': 'cmake'}
+[0.118386] (scout_description) Command: {'cmd': ['/usr/bin/cmake', '/home/r-taro-o/hunterSE_ws/src/ugv_sim/scout/scout_description', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/scout_description'], 'cwd': '/home/r-taro-o/hunterSE_ws/build/scout_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r-taro-o'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r-taro-o'), ('OLDPWD', '/home/r-taro-o'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r-taro-o'), ('NAME', 'LAPTOP-7D65I7SP'), ('WSL_INTEROP', '/run/WSL/242759_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r-taro-o/hunterSE_ws/build/scout_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.124456] (tracer_description) JobProgress: {'identifier': 'tracer_description', 'progress': 'cmake'}
+[0.124557] (tracer_description) Command: {'cmd': ['/usr/bin/cmake', '/home/r-taro-o/hunterSE_ws/src/ugv_sim/tracer/tracer_description', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/tracer_description'], 'cwd': '/home/r-taro-o/hunterSE_ws/build/tracer_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r-taro-o'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r-taro-o'), ('OLDPWD', '/home/r-taro-o'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r-taro-o'), ('NAME', 'LAPTOP-7D65I7SP'), ('WSL_INTEROP', '/run/WSL/242759_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r-taro-o/hunterSE_ws/build/tracer_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.128324] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'cmake'}
+[0.131473] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/r-taro-o/hunterSE_ws/src/ugv_sdk', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/ugv_sdk'], 'cwd': '/home/r-taro-o/hunterSE_ws/build/ugv_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r-taro-o'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r-taro-o'), ('OLDPWD', '/home/r-taro-o'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r-taro-o'), ('NAME', 'LAPTOP-7D65I7SP'), ('WSL_INTEROP', '/run/WSL/242759_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r-taro-o/hunterSE_ws/build/ugv_sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.140747] (urdf_geometry_parser) JobProgress: {'identifier': 'urdf_geometry_parser', 'progress': 'cmake'}
+[0.141342] (urdf_geometry_parser) Command: {'cmd': ['/usr/bin/cmake', '/home/r-taro-o/hunterSE_ws/src/ugv_sim/ranger_mini_V2/urdf_geometry_parser', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/urdf_geometry_parser'], 'cwd': '/home/r-taro-o/hunterSE_ws/build/urdf_geometry_parser', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r-taro-o'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r-taro-o'), ('OLDPWD', '/home/r-taro-o'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r-taro-o'), ('NAME', 'LAPTOP-7D65I7SP'), ('WSL_INTEROP', '/run/WSL/242759_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r-taro-o/hunterSE_ws/build/urdf_geometry_parser'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.179304] (hunter_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.207186] (-) TimerEvent: {}
+[0.217266] (scout_description) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.217761] (scout_description) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.218194] (scout_description) StderrLine: {'line': b'  CMake.\n'}
+[0.218448] (scout_description) StderrLine: {'line': b'\n'}
+[0.219398] (scout_description) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.219774] (scout_description) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.220239] (scout_description) StderrLine: {'line': b'\n'}
+[0.220494] (scout_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.298897] (bunker_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.307353] (-) TimerEvent: {}
+[0.337671] (scout_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.346674] (four_wheel_steering_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.347983] (limo_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.381249] (tracer_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.407520] (-) TimerEvent: {}
+[0.498802] (hunter_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.507700] (-) TimerEvent: {}
+[0.513849] (hunter_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.607894] (-) TimerEvent: {}
+[0.649255] (scout_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.652125] (limo_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.664243] (bunker_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.708119] (-) TimerEvent: {}
+[0.731512] (hunter_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.737766] (hunter_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.741091] (four_wheel_steering_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.755962] (hunter_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.788091] (hunter_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.808332] (-) TimerEvent: {}
+[0.825238] (tracer_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.826689] (scout_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.831387] (hunter_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.832691] (limo_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.847351] (bunker_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.873406] (hunter_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.899057] (hunter_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.909220] (-) TimerEvent: {}
+[0.934670] (four_wheel_steering_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.010875] (-) TimerEvent: {}
+[1.021220] (tracer_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.047674] (limo_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.047969] (scout_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.069359] (limo_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.071300] (limo_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.073100] (limo_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.075225] (scout_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.075885] (scout_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.077479] (scout_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.085234] (limo_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.089911] (scout_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.104702] (bunker_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.111025] (-) TimerEvent: {}
+[1.141902] (bunker_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.142949] (bunker_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.144767] (bunker_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.157190] (bunker_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.211223] (-) TimerEvent: {}
+[1.217825] (four_wheel_steering_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.243505] (four_wheel_steering_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.244490] (four_wheel_steering_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.246245] (four_wheel_steering_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.259067] (four_wheel_steering_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.289300] (tracer_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.311419] (-) TimerEvent: {}
+[1.323920] (tracer_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.325504] (tracer_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.327629] (tracer_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.338198] (tracer_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.362848] (limo_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.386546] (scout_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.395577] (limo_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.396205] (limo_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.397551] (limo_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.411605] (-) TimerEvent: {}
+[1.439892] (scout_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.440770] (scout_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.443087] (scout_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.457766] (bunker_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.490067] (bunker_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.490876] (bunker_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.492743] (bunker_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.514372] (-) TimerEvent: {}
+[1.567778] (four_wheel_steering_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.613258] (four_wheel_steering_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.614513] (-) TimerEvent: {}
+[1.615930] (four_wheel_steering_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.618344] (four_wheel_steering_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.638964] (tracer_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.684539] (tracer_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.686292] (tracer_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.689088] (tracer_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.714692] (-) TimerEvent: {}
+[1.815496] (-) TimerEvent: {}
+[1.916221] (-) TimerEvent: {}
+[1.972460] (hunter_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.016441] (-) TimerEvent: {}
+[2.117137] (-) TimerEvent: {}
+[2.187258] (limo_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[2.187877] (limo_description) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.188206] (limo_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.188433] (limo_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.189183] (limo_description) StderrLine: {'line': b'\n'}
+[2.189375] (limo_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.189502] (limo_description) StderrLine: {'line': b'  of the following names:\n'}
+[2.189685] (limo_description) StderrLine: {'line': b'\n'}
+[2.189811] (limo_description) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.189923] (limo_description) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.190083] (limo_description) StderrLine: {'line': b'\n'}
+[2.190312] (limo_description) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.190461] (limo_description) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.190658] (limo_description) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.190855] (limo_description) StderrLine: {'line': b'  installed.\n'}
+[2.191051] (limo_description) StderrLine: {'line': b'\n'}
+[2.191298] (limo_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.192019] (limo_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.192596] (limo_description) StdoutLine: {'line': b'See also "/home/r-taro-o/hunterSE_ws/build/limo_description/CMakeFiles/CMakeOutput.log".\n'}
+[2.193835] (scout_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[2.194223] (scout_description) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.194380] (scout_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.194507] (scout_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.194626] (scout_description) StderrLine: {'line': b'\n'}
+[2.194753] (scout_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.194860] (scout_description) StderrLine: {'line': b'  of the following names:\n'}
+[2.194967] (scout_description) StderrLine: {'line': b'\n'}
+[2.195112] (scout_description) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.195253] (scout_description) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.195363] (scout_description) StderrLine: {'line': b'\n'}
+[2.195469] (scout_description) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.195576] (scout_description) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.195682] (scout_description) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.195786] (scout_description) StderrLine: {'line': b'  installed.\n'}
+[2.195891] (scout_description) StderrLine: {'line': b'\n'}
+[2.195994] (scout_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.196096] (scout_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.196214] (scout_description) StdoutLine: {'line': b'See also "/home/r-taro-o/hunterSE_ws/build/scout_description/CMakeFiles/CMakeOutput.log".\n'}
+[2.201605] (ugv_sdk) StdoutLine: {'line': b'-- Build package with cmake\n'}
+[2.203140] (ugv_sdk) StdoutLine: {'line': b'-- Tests will not be built\n'}
+[2.203591] (ugv_sdk) StdoutLine: {'line': b"-- Project will be installed to /home/r-taro-o/hunterSE_ws/install/ugv_sdk with 'make install'\n"}
+[2.204831] (ugv_sdk) StdoutLine: {'line': b'--  - To install LIB components to /home/r-taro-o/hunterSE_ws/install/ugv_sdk/lib\n'}
+[2.206895] (ugv_sdk) StdoutLine: {'line': b'--  - To install BIN components to /home/r-taro-o/hunterSE_ws/install/ugv_sdk/bin\n'}
+[2.207495] (ugv_sdk) StdoutLine: {'line': b'--  - To install INCLUDE components to /home/r-taro-o/hunterSE_ws/install/ugv_sdk/include\n'}
+[2.209318] (ugv_sdk) StdoutLine: {'line': b'--  - To install CMAKE components to /home/r-taro-o/hunterSE_ws/install/ugv_sdk/share/cmake/ugv_sdk\n'}
+[2.211075] (ugv_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.211509] (ugv_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[2.211910] (ugv_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/r-taro-o/hunterSE_ws/build/ugv_sdk\n'}
+[2.212334] (limo_description) CommandEnded: {'returncode': 1}
+[2.213356] (urdf_geometry_parser) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.217550] (-) TimerEvent: {}
+[2.217927] (urdf_geometry_parser) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.218899] (urdf_geometry_parser) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.219185] (urdf_geometry_parser) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.219479] (urdf_geometry_parser) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.219715] (urdf_geometry_parser) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.219904] (urdf_geometry_parser) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.220128] (urdf_geometry_parser) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.220486] (urdf_geometry_parser) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.221212] (urdf_geometry_parser) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.221655] (urdf_geometry_parser) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.222105] (urdf_geometry_parser) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.222475] (ugv_sdk) CommandEnded: {'returncode': 0}
+[2.223366] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'build'}
+[2.223497] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r-taro-o/hunterSE_ws/build/ugv_sdk', '--', '-j8', '-l8'], 'cwd': '/home/r-taro-o/hunterSE_ws/build/ugv_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'r-taro-o'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r-taro-o'), ('OLDPWD', '/home/r-taro-o'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r-taro-o'), ('NAME', 'LAPTOP-7D65I7SP'), ('WSL_INTEROP', '/run/WSL/242759_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/r-taro-o/hunterSE_ws/build/ugv_sdk'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[2.230391] (scout_description) CommandEnded: {'returncode': 1}
+[2.271448] (limo_description) JobEnded: {'identifier': 'limo_description', 'rc': 1}
+[2.275178] (scout_description) JobEnded: {'identifier': 'scout_description', 'rc': 'SIGINT'}
+[2.296724] (urdf_geometry_parser) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[2.297251] (urdf_geometry_parser) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.297714] (urdf_geometry_parser) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.298106] (urdf_geometry_parser) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.298376] (urdf_geometry_parser) StderrLine: {'line': b'\n'}
+[2.298808] (urdf_geometry_parser) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.300225] (urdf_geometry_parser) StderrLine: {'line': b'  of the following names:\n'}
+[2.300525] (urdf_geometry_parser) StderrLine: {'line': b'\n'}
+[2.300699] (urdf_geometry_parser) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.300904] (urdf_geometry_parser) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.301034] (urdf_geometry_parser) StderrLine: {'line': b'\n'}
+[2.301202] (urdf_geometry_parser) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.301329] (urdf_geometry_parser) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.301449] (urdf_geometry_parser) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.301617] (urdf_geometry_parser) StderrLine: {'line': b'  installed.\n'}
+[2.301736] (urdf_geometry_parser) StderrLine: {'line': b'\n'}
+[2.301932] (urdf_geometry_parser) StderrLine: {'line': b'\x1b[0m\n'}
+[2.302453] (urdf_geometry_parser) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.302736] (urdf_geometry_parser) StdoutLine: {'line': b'See also "/home/r-taro-o/hunterSE_ws/build/urdf_geometry_parser/CMakeFiles/CMakeOutput.log".\n'}
+[2.302961] (bunker_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[2.303179] (bunker_description) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.303436] (bunker_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.303613] (bunker_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.303842] (bunker_description) StderrLine: {'line': b'\n'}
+[2.304055] (bunker_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.304642] (bunker_description) StderrLine: {'line': b'  of the following names:\n'}
+[2.305169] (bunker_description) StderrLine: {'line': b'\n'}
+[2.305670] (bunker_description) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.306519] (bunker_description) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.307085] (bunker_description) StderrLine: {'line': b'\n'}
+[2.307346] (bunker_description) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.308065] (bunker_description) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.308927] (bunker_description) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.309431] (bunker_description) StderrLine: {'line': b'  installed.\n'}
+[2.309959] (bunker_description) StderrLine: {'line': b'\n'}
+[2.315405] (bunker_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.318532] (-) TimerEvent: {}
+[2.318898] (bunker_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.319216] (bunker_description) StdoutLine: {'line': b'See also "/home/r-taro-o/hunterSE_ws/build/bunker_description/CMakeFiles/CMakeOutput.log".\n'}
+[2.319459] (bunker_description) JobEnded: {'identifier': 'bunker_description', 'rc': 'SIGINT'}
+[2.320241] (urdf_geometry_parser) JobEnded: {'identifier': 'urdf_geometry_parser', 'rc': 'SIGINT'}
+[2.343428] (ugv_sdk) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o\x1b[0m\n'}
+[2.344070] (ugv_sdk) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o\x1b[0m\n'}
+[2.347929] (ugv_sdk) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o\x1b[0m\n'}
+[2.348891] (ugv_sdk) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o\x1b[0m\n'}
+[2.351201] (ugv_sdk) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o\x1b[0m\n'}
+[2.353711] (ugv_sdk) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o\x1b[0m\n'}
+[2.356801] (ugv_sdk) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o\x1b[0m\n'}
+[2.368448] (ugv_sdk) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o\x1b[0m\n'}
+[2.419324] (-) TimerEvent: {}
+[2.519912] (-) TimerEvent: {}
+[2.620512] (-) TimerEvent: {}
+[2.647787] (four_wheel_steering_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[2.648251] (four_wheel_steering_msgs) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.648500] (four_wheel_steering_msgs) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.648725] (four_wheel_steering_msgs) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.648935] (four_wheel_steering_msgs) StderrLine: {'line': b'\n'}
+[2.649184] (four_wheel_steering_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.649451] (four_wheel_steering_msgs) StderrLine: {'line': b'  of the following names:\n'}
+[2.649659] (four_wheel_steering_msgs) StderrLine: {'line': b'\n'}
+[2.649895] (four_wheel_steering_msgs) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.650118] (four_wheel_steering_msgs) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.650309] (four_wheel_steering_msgs) StderrLine: {'line': b'\n'}
+[2.650497] (four_wheel_steering_msgs) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.650675] (four_wheel_steering_msgs) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.650883] (four_wheel_steering_msgs) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.651112] (four_wheel_steering_msgs) StderrLine: {'line': b'  installed.\n'}
+[2.651362] (four_wheel_steering_msgs) StderrLine: {'line': b'\n'}
+[2.651554] (four_wheel_steering_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.651928] (four_wheel_steering_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.652165] (four_wheel_steering_msgs) StdoutLine: {'line': b'See also "/home/r-taro-o/hunterSE_ws/build/four_wheel_steering_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[2.655505] (four_wheel_steering_msgs) JobEnded: {'identifier': 'four_wheel_steering_msgs', 'rc': 'SIGINT'}
+[2.720696] (-) TimerEvent: {}
+[2.748017] (tracer_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[2.748411] (tracer_description) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.748639] (tracer_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.748851] (tracer_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.749040] (tracer_description) StderrLine: {'line': b'\n'}
+[2.749225] (tracer_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.749435] (tracer_description) StderrLine: {'line': b'  of the following names:\n'}
+[2.749631] (tracer_description) StderrLine: {'line': b'\n'}
+[2.749823] (tracer_description) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.750019] (tracer_description) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.750223] (tracer_description) StderrLine: {'line': b'\n'}
+[2.750606] (tracer_description) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.750852] (tracer_description) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.751057] (tracer_description) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.751256] (tracer_description) StderrLine: {'line': b'  installed.\n'}
+[2.751452] (tracer_description) StderrLine: {'line': b'\n'}
+[2.751704] (tracer_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.751897] (tracer_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.752089] (tracer_description) StdoutLine: {'line': b'See also "/home/r-taro-o/hunterSE_ws/build/tracer_description/CMakeFiles/CMakeOutput.log".\n'}
+[2.755946] (tracer_description) JobEnded: {'identifier': 'tracer_description', 'rc': 'SIGINT'}
+[2.820852] (-) TimerEvent: {}
+[2.921350] (-) TimerEvent: {}
+[3.021869] (-) TimerEvent: {}
+[3.122423] (-) TimerEvent: {}
+[3.222956] (-) TimerEvent: {}
+[3.323487] (-) TimerEvent: {}
+[3.418084] (hunter_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.423646] (-) TimerEvent: {}
+[3.524194] (-) TimerEvent: {}
+[3.624754] (-) TimerEvent: {}
+[3.725299] (-) TimerEvent: {}
+[3.826829] (-) TimerEvent: {}
+[3.927387] (-) TimerEvent: {}
+[4.027941] (-) TimerEvent: {}
+[4.121663] (hunter_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.128099] (-) TimerEvent: {}
+[4.228666] (-) TimerEvent: {}
+[4.273527] (hunter_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.328831] (-) TimerEvent: {}
+[4.344825] (hunter_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.345512] (hunter_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.345952] (hunter_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.428997] (-) TimerEvent: {}
+[4.455153] (hunter_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.492240] (hunter_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.497713] (hunter_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.500695] (hunter_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.510599] (hunter_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.529152] (-) TimerEvent: {}
+[4.629730] (-) TimerEvent: {}
+[4.680707] (hunter_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[4.692155] (hunter_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/r-taro-o/hunterSE_ws/build/hunter_msgs\n'}
+[4.715562] (hunter_msgs) JobEnded: {'identifier': 'hunter_msgs', 'rc': 'SIGINT'}
+[4.729890] (-) TimerEvent: {}
+[4.830412] (-) TimerEvent: {}
+[4.930958] (-) TimerEvent: {}
+[5.031490] (-) TimerEvent: {}
+[5.132133] (-) TimerEvent: {}
+[5.232698] (-) TimerEvent: {}
+[5.338421] (-) TimerEvent: {}
+[5.440559] (-) TimerEvent: {}
+[5.541089] (-) TimerEvent: {}
+[5.641746] (-) TimerEvent: {}
+[5.742340] (-) TimerEvent: {}
+[5.842894] (-) TimerEvent: {}
+[5.943438] (-) TimerEvent: {}
+[6.043989] (-) TimerEvent: {}
+[6.144559] (-) TimerEvent: {}
+[6.245147] (-) TimerEvent: {}
+[6.345703] (-) TimerEvent: {}
+[6.446264] (-) TimerEvent: {}
+[6.546874] (-) TimerEvent: {}
+[6.647622] (-) TimerEvent: {}
+[6.748155] (-) TimerEvent: {}
+[6.848747] (-) TimerEvent: {}
+[6.949357] (-) TimerEvent: {}
+[7.050485] (-) TimerEvent: {}
+[7.151084] (-) TimerEvent: {}
+[7.251700] (-) TimerEvent: {}
+[7.352237] (-) TimerEvent: {}
+[7.452781] (-) TimerEvent: {}
+[7.553339] (-) TimerEvent: {}
+[7.653902] (-) TimerEvent: {}
+[7.754471] (-) TimerEvent: {}
+[7.855055] (-) TimerEvent: {}
+[7.955622] (-) TimerEvent: {}
+[8.024562] (ugv_sdk) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v2/agilex_msg_parser_v2.c.o\x1b[0m\n'}
+[8.055781] (-) TimerEvent: {}
+[8.156328] (-) TimerEvent: {}
+[8.256920] (-) TimerEvent: {}
+[8.357477] (-) TimerEvent: {}
+[8.458973] (-) TimerEvent: {}
+[8.559521] (-) TimerEvent: {}
+[8.586983] (ugv_sdk) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/protocol_v2/protocol_v2_parser.cpp.o\x1b[0m\n'}
+[8.659701] (-) TimerEvent: {}
+[8.698951] (ugv_sdk) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v1/agilex_msg_parser_v1.c.o\x1b[0m\n'}
+[8.759859] (-) TimerEvent: {}
+[8.860370] (-) TimerEvent: {}
+[8.960911] (-) TimerEvent: {}
+[9.061451] (-) TimerEvent: {}
+[9.162159] (-) TimerEvent: {}
+[9.262706] (-) TimerEvent: {}
+[9.363259] (-) TimerEvent: {}
+[9.463746] (-) TimerEvent: {}
+[9.564317] (-) TimerEvent: {}
+[9.664815] (-) TimerEvent: {}
+[9.765331] (-) TimerEvent: {}
+[9.865996] (-) TimerEvent: {}
+[9.966579] (-) TimerEvent: {}
+[10.067093] (-) TimerEvent: {}
+[10.167633] (-) TimerEvent: {}
+[10.268163] (-) TimerEvent: {}
+[10.368674] (-) TimerEvent: {}
+[10.469243] (-) TimerEvent: {}
+[10.569739] (-) TimerEvent: {}
+[10.670390] (-) TimerEvent: {}
+[10.770892] (-) TimerEvent: {}
+[10.871370] (-) TimerEvent: {}
+[10.971826] (-) TimerEvent: {}
+[11.072307] (-) TimerEvent: {}
+[11.172890] (-) TimerEvent: {}
+[11.273563] (-) TimerEvent: {}
+[11.374275] (-) TimerEvent: {}
+[11.474850] (-) TimerEvent: {}
+[11.575402] (-) TimerEvent: {}
+[11.675873] (-) TimerEvent: {}
+[11.776423] (-) TimerEvent: {}
+[11.876973] (-) TimerEvent: {}
+[11.977668] (-) TimerEvent: {}
+[12.078117] (-) TimerEvent: {}
+[12.178646] (-) TimerEvent: {}
+[12.195524] (ugv_sdk) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library lib/libugv_sdk.a\x1b[0m\n'}
+[12.265288] (ugv_sdk) StdoutLine: {'line': b'[ 42%] Built target ugv_sdk\n'}
+[12.278845] (-) TimerEvent: {}
+[12.306103] (ugv_sdk) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/tracer_robot_demo.cpp.o\x1b[0m\n'}
+[12.307624] (ugv_sdk) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/ranger_robot_demo.cpp.o\x1b[0m\n'}
+[12.309069] (ugv_sdk) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_robot.dir/scout_robot_demo.cpp.o\x1b[0m\n'}
+[12.309507] (ugv_sdk) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/demo_protocol_detector.cpp.o\x1b[0m\n'}
+[12.311936] (ugv_sdk) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/scout_mini_omni_demo.cpp.o\x1b[0m\n'}
+[12.312425] (ugv_sdk) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/hunter_robot_demo.cpp.o\x1b[0m\n'}
+[12.325987] (ugv_sdk) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_robot_version.dir/demo_robot_version.cpp.o\x1b[0m\n'}
+[12.330546] (ugv_sdk) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/bunker_robot_demo.cpp.o\x1b[0m\n'}
+[12.378988] (-) TimerEvent: {}
+[12.479477] (-) TimerEvent: {}
+[12.579965] (-) TimerEvent: {}
+[12.680504] (-) TimerEvent: {}
+[12.781545] (-) TimerEvent: {}
+[12.882136] (-) TimerEvent: {}
+[12.982753] (-) TimerEvent: {}
+[13.083276] (-) TimerEvent: {}
+[13.183818] (-) TimerEvent: {}
+[13.284374] (-) TimerEvent: {}
+[13.385853] (-) TimerEvent: {}
+[13.486415] (-) TimerEvent: {}
+[13.586984] (-) TimerEvent: {}
+[13.622886] (ugv_sdk) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/demo_bunker_robot\x1b[0m\n'}
+[13.687342] (-) TimerEvent: {}
+[13.788064] (-) TimerEvent: {}
+[13.888583] (-) TimerEvent: {}
+[13.989125] (-) TimerEvent: {}
+[13.997460] (ugv_sdk) StdoutLine: {'line': b'[ 75%] Built target demo_bunker_robot\n'}
+[14.089302] (-) TimerEvent: {}
+[14.189863] (-) TimerEvent: {}
+[14.291723] (-) TimerEvent: {}
+[14.392287] (-) TimerEvent: {}
+[14.492916] (-) TimerEvent: {}
+[14.601873] (-) TimerEvent: {}
+[14.703528] (-) TimerEvent: {}
+[14.804100] (-) TimerEvent: {}
+[14.904639] (-) TimerEvent: {}
+[15.005178] (-) TimerEvent: {}
+[15.105753] (-) TimerEvent: {}
+[15.206296] (-) TimerEvent: {}
+[15.308235] (-) TimerEvent: {}
+[15.408875] (-) TimerEvent: {}
+[15.509415] (-) TimerEvent: {}
+[15.610027] (-) TimerEvent: {}
+[15.710574] (-) TimerEvent: {}
+[15.811102] (-) TimerEvent: {}
+[15.911643] (-) TimerEvent: {}
+[16.012185] (-) TimerEvent: {}
+[16.112711] (-) TimerEvent: {}
+[16.213290] (-) TimerEvent: {}
+[16.313830] (-) TimerEvent: {}
+[16.414284] (-) TimerEvent: {}
+[16.514823] (-) TimerEvent: {}
+[16.615380] (-) TimerEvent: {}
+[16.624786] (ugv_sdk) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/demo_protocol_detector\x1b[0m\n'}
+[16.715547] (-) TimerEvent: {}
+[16.816107] (-) TimerEvent: {}
+[16.916722] (-) TimerEvent: {}
+[16.943562] (ugv_sdk) StdoutLine: {'line': b'[ 78%] Built target demo_protocol_detector\n'}
+[17.016918] (-) TimerEvent: {}
+[17.027903] (ugv_sdk) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/demo_hunter_robot\x1b[0m\n'}
+[17.117130] (-) TimerEvent: {}
+[17.146263] (ugv_sdk) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/demo_robot_version\x1b[0m\n'}
+[17.150676] (ugv_sdk) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/demo_scout_mini_omni_robot\x1b[0m\n'}
+[17.217236] (-) TimerEvent: {}
+[17.284469] (ugv_sdk) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/demo_scout_robot\x1b[0m\n'}
+[17.287676] (ugv_sdk) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/demo_ranger_robot\x1b[0m\n'}
+[17.317460] (-) TimerEvent: {}
+[17.363263] (ugv_sdk) StdoutLine: {'line': b'[ 96%] Built target demo_hunter_robot\n'}
+[17.412249] (ugv_sdk) StdoutLine: {'line': b'[ 96%] Built target demo_robot_version\n'}
+[17.417531] (-) TimerEvent: {}
+[17.426580] (ugv_sdk) StdoutLine: {'line': b'[ 96%] Built target demo_scout_mini_omni_robot\n'}
+[17.517725] (-) TimerEvent: {}
+[17.519677] (ugv_sdk) StdoutLine: {'line': b'[ 96%] Built target demo_ranger_robot\n'}
+[17.535383] (ugv_sdk) StdoutLine: {'line': b'[ 96%] Built target demo_scout_robot\n'}
+[17.617887] (-) TimerEvent: {}
+[17.718367] (-) TimerEvent: {}
+[17.818877] (-) TimerEvent: {}
+[17.919366] (-) TimerEvent: {}
+[17.987485] (ugv_sdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/demo_tracer_robot\x1b[0m\n'}
+[18.019584] (-) TimerEvent: {}
+[18.120089] (-) TimerEvent: {}
+[18.176200] (ugv_sdk) StdoutLine: {'line': b'[100%] Built target demo_tracer_robot\n'}
+[18.194926] (ugv_sdk) JobEnded: {'identifier': 'ugv_sdk', 'rc': 'SIGINT'}
+[18.206260] (autokit) JobSkipped: {'identifier': 'autokit'}
+[18.206423] (hunter2_base) JobSkipped: {'identifier': 'hunter2_base'}
+[18.206493] (hunter2_control) JobSkipped: {'identifier': 'hunter2_control'}
+[18.206666] (hunter2_gazebo) JobSkipped: {'identifier': 'hunter2_gazebo'}
+[18.206940] (hunter_se_control) JobSkipped: {'identifier': 'hunter_se_control'}
+[18.207037] (hunter_se_description) JobSkipped: {'identifier': 'hunter_se_description'}
+[18.207157] (hunter_se_gazebo) JobSkipped: {'identifier': 'hunter_se_gazebo'}
+[18.207223] (limo_s2_arm) JobSkipped: {'identifier': 'limo_s2_arm'}
+[18.207285] (limo_s2_description) JobSkipped: {'identifier': 'limo_s2_description'}
+[18.207314] (limo_s2_gazebo_sim) JobSkipped: {'identifier': 'limo_s2_gazebo_sim'}
+[18.207376] (ranger_mini_control) JobSkipped: {'identifier': 'ranger_mini_control'}
+[18.207885] (ranger_mini_v2) JobSkipped: {'identifier': 'ranger_mini_v2'}
+[18.207981] (ranger_mini_v2_gazebo) JobSkipped: {'identifier': 'ranger_mini_v2_gazebo'}
+[18.208048] (scout_control) JobSkipped: {'identifier': 'scout_control'}
+[18.208137] (steer_bot_hardware_gazebo) JobSkipped: {'identifier': 'steer_bot_hardware_gazebo'}
+[18.208173] (steer_drive_controller) JobSkipped: {'identifier': 'steer_drive_controller'}
+[18.208236] (tracer_mini) JobSkipped: {'identifier': 'tracer_mini'}
+[18.208265] (bunker_gazebo_sim) JobSkipped: {'identifier': 'bunker_gazebo_sim'}
+[18.208328] (four_wheel_steering_controller) JobSkipped: {'identifier': 'four_wheel_steering_controller'}
+[18.208357] (hunter_base) JobSkipped: {'identifier': 'hunter_base'}
+[18.208417] (limo_gazebo_sim) JobSkipped: {'identifier': 'limo_gazebo_sim'}
+[18.208448] (scout_gazebo_sim) JobSkipped: {'identifier': 'scout_gazebo_sim'}
+[18.208510] (tracer_gazebo_sim) JobSkipped: {'identifier': 'tracer_gazebo_sim'}
+[18.208736] (-) EventReactorShutdown: {}

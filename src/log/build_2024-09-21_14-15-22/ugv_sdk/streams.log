@@ -1,0 +1,111 @@
+[0.027s] Invoking command in '/home/r-taro-o/hunterSE_ws/src/build/ugv_sdk': /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/src/install/ugv_sdk
+[0.158s] -- The C compiler identification is GNU 11.4.0
+[0.452s] -- The CXX compiler identification is GNU 11.4.0
+[0.632s] -- Detecting C compiler ABI info
+[0.795s] -- Detecting C compiler ABI info - done
+[0.808s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.809s] -- Detecting C compile features
+[0.810s] -- Detecting C compile features - done
+[0.817s] -- Detecting CXX compiler ABI info
+[0.999s] -- Detecting CXX compiler ABI info - done
+[1.018s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.020s] -- Detecting CXX compile features
+[1.021s] -- Detecting CXX compile features - done
+[1.126s] -- Build package with cmake
+[1.127s] -- Setting build type to 'Release' as none was specified.
+[1.127s] -- Tests will not be built
+[1.132s] -- Looking for pthread.h
+[1.319s] -- Looking for pthread.h - found
+[1.320s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.513s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.514s] -- Found Threads: TRUE  
+[1.526s] -- Project will be installed to /home/r-taro-o/hunterSE_ws/src/install/ugv_sdk with 'make install'
+[1.526s] --  - To install LIB components to /home/r-taro-o/hunterSE_ws/src/install/ugv_sdk/lib
+[1.526s] --  - To install BIN components to /home/r-taro-o/hunterSE_ws/src/install/ugv_sdk/bin
+[1.527s] --  - To install INCLUDE components to /home/r-taro-o/hunterSE_ws/src/install/ugv_sdk/include
+[1.527s] --  - To install CMAKE components to /home/r-taro-o/hunterSE_ws/src/install/ugv_sdk/share/cmake/ugv_sdk
+[1.540s] -- Configuring done
+[1.584s] -- Generating done
+[1.589s] [33mCMake Warning:
+[1.590s]   Manually-specified variables were not used by the project:
+[1.590s] 
+[1.590s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.590s]     CATKIN_SYMLINK_INSTALL
+[1.590s] 
+[1.591s] [0m
+[1.591s] -- Build files have been written to: /home/r-taro-o/hunterSE_ws/src/build/ugv_sdk
+[1.601s] Invoked command in '/home/r-taro-o/hunterSE_ws/src/build/ugv_sdk' returned '0': /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/src/install/ugv_sdk
+[1.603s] Invoking command in '/home/r-taro-o/hunterSE_ws/src/build/ugv_sdk': /usr/bin/cmake --build /home/r-taro-o/hunterSE_ws/src/build/ugv_sdk -- -j8 -l8
+[1.693s] [  3%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o[0m
+[1.694s] [  7%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o[0m
+[1.697s] [ 10%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o[0m
+[1.698s] [ 14%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o[0m
+[1.700s] [ 17%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o[0m
+[1.703s] [ 21%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o[0m
+[1.710s] [ 28%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o[0m
+[1.711s] [ 28%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o[0m
+[1.809s] In file included from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/async_port/async_can.cpp:10[m[K:
+[1.809s] [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[1.810s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[1.810s]       |          [01;31m[K^~~~~~~~~~[m[K
+[1.810s] In file included from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp:15[m[K,
+[1.810s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/utilities/protocol_detector.cpp:10[m[K:
+[1.811s] [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[1.811s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[1.811s]       |          [01;31m[K^~~~~~~~~~[m[K
+[1.811s] compilation terminated.
+[1.811s] compilation terminated.
+[1.816s] gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:90: CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o] Error 1
+[1.817s] gmake[2]: *** Waiting for unfinished jobs....
+[1.817s] gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:104: CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o] Error 1
+[1.838s] In file included from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/async_port/async_serial.cpp:10[m[K:
+[1.838s] [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[1.839s]    20 | #include [01;31m[K"asio.hpp"[m[K
+[1.839s]       |          [01;31m[K^~~~~~~~~~[m[K
+[1.839s] compilation terminated.
+[1.842s] gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:76: CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o] Error 1
+[1.860s] In file included from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21[m[K,
+[1.860s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp:19[m[K,
+[1.861s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/mobile_robot/scout_robot.cpp:11[m[K:
+[1.861s] [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[1.861s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[1.861s]       |          [01;31m[K^~~~~~~~~~[m[K
+[1.862s] compilation terminated.
+[1.862s] gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:118: CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o] Error 1
+[1.898s] In file included from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21[m[K,
+[1.898s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp:19[m[K,
+[1.899s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/mobile_robot/hunter_robot.cpp:11[m[K:
+[1.899s] [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[1.899s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[1.899s]       |          [01;31m[K^~~~~~~~~~[m[K
+[1.900s] compilation terminated.
+[1.901s] gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:132: CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o] Error 1
+[1.937s] In file included from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21[m[K,
+[1.937s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:19[m[K,
+[1.937s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/mobile_robot/bunker_robot.cpp:11[m[K:
+[1.937s] [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[1.939s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[1.940s]       |          [01;31m[K^~~~~~~~~~[m[K
+[1.940s] compilation terminated.
+[1.941s] gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:146: CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o] Error 1
+[1.951s] In file included from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21[m[K,
+[1.951s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp:19[m[K,
+[1.951s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp:15[m[K,
+[1.951s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/mobile_robot/ranger_robot.cpp:9[m[K:
+[1.951s] [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[1.951s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[1.951s]       |          [01;31m[K^~~~~~~~~~[m[K
+[1.952s] compilation terminated.
+[1.953s] gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:160: CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o] Error 1
+[1.970s] In file included from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21[m[K,
+[1.970s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp:18[m[K,
+[1.970s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp:15[m[K,
+[1.970s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/src/mobile_robot/titan_robot.cpp:9[m[K:
+[1.970s] [01m[K/home/r-taro-o/hunterSE_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[1.970s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[1.971s]       |          [01;31m[K^~~~~~~~~~[m[K
+[1.971s] compilation terminated.
+[1.973s] gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:174: CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o] Error 1
+[1.974s] gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/ugv_sdk.dir/all] Error 2
+[1.974s] gmake: *** [Makefile:156: all] Error 2
+[1.979s] Invoked command in '/home/r-taro-o/hunterSE_ws/src/build/ugv_sdk' returned '2': /usr/bin/cmake --build /home/r-taro-o/hunterSE_ws/src/build/ugv_sdk -- -j8 -l8

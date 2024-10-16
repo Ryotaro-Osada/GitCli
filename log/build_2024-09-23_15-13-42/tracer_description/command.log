@@ -1,0 +1,1 @@
+Invoking command in '/home/r-taro-o/hunterSE_ws/build/tracer_description': /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sim/tracer/tracer_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/tracer_description

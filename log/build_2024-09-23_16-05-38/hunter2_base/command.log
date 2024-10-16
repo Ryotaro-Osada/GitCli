@@ -1,0 +1,2 @@
+Invoking command in '/home/r-taro-o/hunterSE_ws/build/hunter2_base': /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sim/hunter/hunter2_base -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/hunter2_base
+Invoked command in '/home/r-taro-o/hunterSE_ws/build/hunter2_base' returned '1': /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sim/hunter/hunter2_base -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/hunter2_base

@@ -1,0 +1,92 @@
+[0.250s] Invoking command in '/home/r-taro-o/hunterSE_ws/build/hunter_base': AMENT_PREFIX_PATH=/home/r-taro-o/hunterSE_ws/install/hunter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/r-taro-o/hunterSE_ws/install/ugv_sdk:/home/r-taro-o/hunterSE_ws/install/hunter_msgs LD_LIBRARY_PATH=/home/r-taro-o/hunterSE_ws/install/hunter_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/r-taro-o/hunterSE_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/r-taro-o/hunterSE_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/r-taro-o/hunterSE_ws/install/hunter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/r-taro-o/hunterSE_ws/install/ugv_sdk/share /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/hunter_base
+[0.430s] -- The C compiler identification is GNU 11.4.0
+[1.042s] -- The CXX compiler identification is GNU 11.4.0
+[1.372s] -- Detecting C compiler ABI info
+[1.568s] -- Detecting C compiler ABI info - done
+[1.588s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.588s] -- Detecting C compile features
+[1.589s] -- Detecting C compile features - done
+[1.595s] -- Detecting CXX compiler ABI info
+[1.824s] -- Detecting CXX compiler ABI info - done
+[1.849s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.850s] -- Detecting CXX compile features
+[1.852s] -- Detecting CXX compile features - done
+[1.858s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.241s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.450s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.697s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.707s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.730s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.758s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.801s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.961s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.969s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.330s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.559s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.759s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.779s] -- Looking for pthread.h
+[7.959s] -- Looking for pthread.h - found
+[7.960s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.130s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.132s] -- Found Threads: TRUE  
+[8.283s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[8.330s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[8.380s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.438s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[8.467s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[8.749s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[8.811s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.815s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.815s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.821s] -- Found hunter_msgs: 0.0.1 (/home/r-taro-o/hunterSE_ws/install/hunter_msgs/share/hunter_msgs/cmake)
+[8.890s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.023s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.031s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.032s] -- Configured cppcheck include dirs: /home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base/include
+[9.032s] -- Configured cppcheck exclude dirs and/or files: 
+[9.039s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.039s] -- Configured cpplint exclude dirs and/or files: 
+[9.040s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.043s] -- Added test 'lint_cmake' to check CMake code style
+[9.044s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.049s] -- Added test 'uncrustify' to check C / C++ code style
+[9.049s] -- Configured uncrustify additional arguments: 
+[9.050s] -- Added test 'xmllint' to check XML markup files
+[9.052s] -- Configuring done
+[9.077s] -- Generating done
+[9.081s] -- Build files have been written to: /home/r-taro-o/hunterSE_ws/build/hunter_base
+[9.099s] Invoked command in '/home/r-taro-o/hunterSE_ws/build/hunter_base' returned '0': AMENT_PREFIX_PATH=/home/r-taro-o/hunterSE_ws/install/hunter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/r-taro-o/hunterSE_ws/install/ugv_sdk:/home/r-taro-o/hunterSE_ws/install/hunter_msgs LD_LIBRARY_PATH=/home/r-taro-o/hunterSE_ws/install/hunter_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/r-taro-o/hunterSE_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/r-taro-o/hunterSE_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/r-taro-o/hunterSE_ws/install/hunter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/r-taro-o/hunterSE_ws/install/ugv_sdk/share /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/hunter_base
+[9.101s] Invoking command in '/home/r-taro-o/hunterSE_ws/build/hunter_base': AMENT_PREFIX_PATH=/home/r-taro-o/hunterSE_ws/install/hunter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/r-taro-o/hunterSE_ws/install/ugv_sdk:/home/r-taro-o/hunterSE_ws/install/hunter_msgs LD_LIBRARY_PATH=/home/r-taro-o/hunterSE_ws/install/hunter_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/r-taro-o/hunterSE_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/r-taro-o/hunterSE_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/r-taro-o/hunterSE_ws/install/hunter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/r-taro-o/hunterSE_ws/install/ugv_sdk/share /usr/bin/cmake --build /home/r-taro-o/hunterSE_ws/build/hunter_base -- -j8 -l8
+[9.174s] [ 75%] [32mBuilding CXX object CMakeFiles/hunter_base_node.dir/src/hunter_base_ros.cpp.o[0m
+[9.174s] [ 75%] [32mBuilding CXX object CMakeFiles/hunter_base_node.dir/src/hunter_base_node.cpp.o[0m
+[9.175s] [ 75%] [32mBuilding CXX object CMakeFiles/hunter_base_node.dir/src/bicycle_model.cpp.o[0m
+[9.853s] In file included from [01m[K/home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base/src/hunter_base_ros.cpp:12[m[K:
+[9.853s] [01m[K/home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base/include/hunter_base/hunter_messenger.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory
+[9.853s]    21 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.hpp>[m[K
+[9.853s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.853s] compilation terminated.
+[9.856s] gmake[2]: *** [CMakeFiles/hunter_base_node.dir/build.make:76: CMakeFiles/hunter_base_node.dir/src/hunter_base_ros.cpp.o] Error 1
+[9.856s] gmake[2]: *** Waiting for unfinished jobs....
+[10.241s] In file included from [01m[K/home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base/ascent/include/ascent/Recorder.h:25[m[K,
+[10.241s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base/ascent/include/ascent/Ascent.h:17[m[K,
+[10.242s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base/include/hunter_base/bicycle_model.hpp:19[m[K,
+[10.243s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base/src/bicycle_model.cpp:10[m[K:
+[10.243s] [01m[K/home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base/ascent/include/ascent/containers/stack.h:54:7:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[10.244s]    54 |       [01;35m[Kconst[m[K pointer operator->() const noexcept
+[10.244s]       |       [01;35m[K^~~~~[m[K
+[10.244s] [01m[K/home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base/ascent/include/ascent/containers/stack.h:113:7:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[10.244s]   113 |       [01;35m[Kconst[m[K pointer operator->() const
+[10.245s]       |       [01;35m[K^~~~~[m[K
+[10.383s] In file included from [01m[K/home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base/ascent/include/ascent/integrators/RK2.h:17[m[K,
+[10.383s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base/ascent/include/ascent/Ascent.h:26[m[K,
+[10.383s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base/include/hunter_base/bicycle_model.hpp:19[m[K,
+[10.384s]                  from [01m[K/home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base/src/bicycle_model.cpp:10[m[K:
+[10.384s] [01m[K/home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base/ascent/include/ascent/Utility.h:25:14:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[10.384s]    25 |    constexpr [01;35m[Kconst[m[K value_t cx(long double v) { return static_cast<value_t>(v); }
+[10.384s]       |              [01;35m[K^~~~~[m[K
+[10.384s] [01m[K/home/r-taro-o/hunterSE_ws/src/hunter_ros2/hunter_base/ascent/include/ascent/Utility.h:26:14:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[10.384s]    26 |    constexpr [01;35m[Kconst[m[K value_t operator"" _v(long double v) { return static_cast<value_t>(v); }
+[10.384s]       |              [01;35m[K^~~~~[m[K
+[14.553s] gmake[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/hunter_base_node.dir/all] Error 2
+[14.554s] gmake: *** [Makefile:166: all] Error 2
+[14.557s] Invoked command in '/home/r-taro-o/hunterSE_ws/build/hunter_base' returned '2': AMENT_PREFIX_PATH=/home/r-taro-o/hunterSE_ws/install/hunter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/r-taro-o/hunterSE_ws/install/ugv_sdk:/home/r-taro-o/hunterSE_ws/install/hunter_msgs LD_LIBRARY_PATH=/home/r-taro-o/hunterSE_ws/install/hunter_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/r-taro-o/hunterSE_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/r-taro-o/hunterSE_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/r-taro-o/hunterSE_ws/install/hunter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/r-taro-o/hunterSE_ws/install/ugv_sdk/share /usr/bin/cmake --build /home/r-taro-o/hunterSE_ws/build/hunter_base -- -j8 -l8

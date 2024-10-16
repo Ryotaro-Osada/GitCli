@@ -1,0 +1,41 @@
+[0.080s] Invoking command in '/home/r-taro-o/hunterSE_ws/build/hunter2_base': /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sim/hunter/hunter2_base -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/hunter2_base
+[0.168s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.168s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.169s]   CMake.
+[0.169s] 
+[0.169s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.169s]   CMake that the project does not need compatibility with older versions.
+[0.170s] 
+[0.170s] [0m
+[0.297s] -- The C compiler identification is GNU 11.4.0
+[0.999s] -- The CXX compiler identification is GNU 11.4.0
+[1.361s] -- Detecting C compiler ABI info
+[1.706s] -- Detecting C compiler ABI info - done
+[1.753s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.754s] -- Detecting C compile features
+[1.756s] -- Detecting C compile features - done
+[1.772s] -- Detecting CXX compiler ABI info
+[2.107s] -- Detecting CXX compiler ABI info - done
+[2.139s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.141s] -- Detecting CXX compile features
+[2.142s] -- Detecting CXX compile features - done
+[2.914s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[2.914s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.914s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.915s]   CMake did not find one.
+[2.915s] 
+[2.916s]   Could not find a package configuration file provided by "catkin" with any
+[2.917s]   of the following names:
+[2.917s] 
+[2.918s]     catkinConfig.cmake
+[2.918s]     catkin-config.cmake
+[2.919s] 
+[2.920s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.921s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.921s]   provides a separate development package or SDK, be sure it has been
+[2.922s]   installed.
+[2.923s] 
+[2.923s] [0m
+[2.923s] -- Configuring incomplete, errors occurred!
+[2.924s] See also "/home/r-taro-o/hunterSE_ws/build/hunter2_base/CMakeFiles/CMakeOutput.log".
+[3.046s] Invoked command in '/home/r-taro-o/hunterSE_ws/build/hunter2_base' returned '1': /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sim/hunter/hunter2_base -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/hunter2_base

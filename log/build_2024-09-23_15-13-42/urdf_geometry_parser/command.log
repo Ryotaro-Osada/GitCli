@@ -1,0 +1,1 @@
+Invoking command in '/home/r-taro-o/hunterSE_ws/build/urdf_geometry_parser': /usr/bin/cmake /home/r-taro-o/hunterSE_ws/src/ugv_sim/ranger_mini_V2/urdf_geometry_parser -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/r-taro-o/hunterSE_ws/install/urdf_geometry_parser
